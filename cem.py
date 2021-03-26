@@ -9,9 +9,9 @@ import time
 import gym
 import numpy as np
 
-from envs import setup_env
-from policies import setup_policy
-from plotting import plot_history
+from utils.envs import setup_env
+from utils.policies import setup_policy
+from utils.plotting import plot_history
 
 
 def ensure_dir(file_path):
